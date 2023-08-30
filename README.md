@@ -1,5 +1,11 @@
-### Hi there 👋
+### Bash 👋
 
+<table class="tableizer-table">
+<thead><tr class="tableizer-firstrow"><th>№</th><th>Команда</th><th>Описание</th></tr></thead><tbody>
+ <tr><td>1</td><td>~                               </td><td>      # Home directory </td></tr>
+ <tr><td>2</td><td>pwd                                  </td><td> # Show current directory path</td></tr>
+ <tr><td>3</td><td>mkdir test1                           </td><td># Create a directory named test1</td></tr>
+</tbody></table>
 <!--
 **RomanRRC/RomanRRC** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
