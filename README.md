@@ -12,7 +12,7 @@
 - [Test-Cases](https://github.com/RomanRRC/Test-Cases)
 - [Bug-Reports](https://github.com/RomanRRC/Bug-reports)
 - [SQL Queries](https://github.com/RomanRRC/SQL-Queries)
-- [Postman Collections](https://www.postman.com/supply-geoscientist-41924051/workspace/petstore/collection/25676439-86b8b22c-1e7a-42d7-911d-7099cd44ce29?action=share&creator=25676439)
+- [Postman Collections](https://github.com/RomanRRC/Postman-Collections/blob/main/README.md)
 - [Test plans/Reports on the conducted testing ](https://github.com/TimtestQA/Test-plans_Reports-of-testing.git)
 - [Bash commands](https://github.com/RomanRRC/Bash.git)
 - [Git](https://github.com/TimtestQA/git.git)
