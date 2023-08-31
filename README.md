@@ -1,4 +1,4 @@
-![Header](https://github.com/TimtestQA/TimtestQA/blob/main/assets/Logo.png)
+![Header](https://github.com/RomanRRC/RomanRRC/blob/3ac3db8c9b6e251d122b16d817afd47fbae7f78e/1.jpg)
 ### Привет.
 <p>Меня зовут Роман и я QA-инженер. Здесь я хочу поделиться некоторыми элементами портфолио веб-тестирования и мобильного тестирования, полученными во время учебы и стажировок</p> 
 
