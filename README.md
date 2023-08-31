@@ -1,106 +1,100 @@
-### Bash 👋
+![Header](https://github.com/TimtestQA/TimtestQA/blob/main/assets/Logo.png)
+### Hello there.
+<p>Меня зовут Роман и я QA-инженер. Здесь я хочу поделиться некоторыми элементами портфолио веб-тестирования и мобильного тестирования, полученными во время учебы и стажировок</p> 
 
-Задание № 1 
-<table class="tableizer-table">
-<thead><tr class="tableizer-firstrow"><th>№</th><th>Команда</th><th>Описание</th></tr></thead><tbody>
- <tr><td>1</td><td>~ </td><td>Открыть домашнюю директорию</td></tr>
- <tr><td>2</td><td>pwd</td><td>Определить имя папки, в которой вы находитесь</td></tr>
- <tr><td>3</td><td>mkdir test1</td><td>Создать внутри этой папки каталог  с именем test1</td></tr>
- <tr><td>4</td><td>cd test1</td><td>Перейти в папку test1</td></tr>
- <tr><td>5</td><td>touch file{1,2,3}.txt</td><td>Создать файл 1,2 и 3 внутри каталога test1</td></tr>
- <tr><td>6</td><td>ls</td><td>Проверить содержимое каталога test1</td></tr>
- <tr><td>7</td><td>cd</td><td>Перейти в домашнюю директорию</td></tr>
- <tr><td>8</td><td>mkdir test2 </td><td>Создать папку test2 внутри домашней директории</td></tr>
- <tr><td>9</td><td>rmdir test2</td><td>Удалить папку test2</td></tr>
- <tr><td>10</td><td>cd test1</td><td>Перейти в папку test1</td></tr>
- <tr><td>11</td><td>rm file2.txt</td><td>Удалить файл 2 из папки test1</td></tr>
- <tr><td>12</td><td>mkdir test3</td><td>Создать папку в домашней директории test3</td></tr>
- <tr><td>13</td><td>touch file{4,5}.txt</td><td>добавить в папку test3 два файла</td></tr>
- <tr><td>14</td><td>cd ..</td><td>Вернуться обратно в каталог</td></tr>
- <tr><td>15</td><td>rm -rf test3</td><td>Удалить папку test3</td></tr>
- <tr><td>16</td><td>ls</td><td>Убедиться, что каталог удален</td></tr>
- <tr><td>17</td><td>mkdir test4</td><td>Создать папку test4 в домашней директории</td></tr>
- <tr><td>18</td><td>mv test1/file{1,3}.txt test4</td><td>Переместить файлы 1 и 3 из папки test1 в папку test4</td></tr>
- <tr><td>19</td><td>echo line11 >> file1.txt</td><td> Добавить в файл 1 три строки со словами line</td></tr>
- <tr><td>20</td><td>echo line12 >> file1.txt            </td><td>&nbsp;</td></tr>
- <tr><td>21</td><td>echo line13 >> file1.txt</td><td>&nbsp;</td></tr>
- <tr><td>22</td><td>cat file1.txt</td><td>Посмотреть содержимое файла 1</td></tr>
- <tr><td>23</td><td>echo line31 >> file3.txt</td><td>Добавить в файл 3 три строки со словами line</td></tr>
- <tr><td>24</td><td>echo line32 >> file3.txt</td><td>&nbsp;</td></tr>
- <tr><td>25</td><td>echo line33 >> file3.txt</td><td>&nbsp;</td></tr>
- <tr><td>26</td><td>cat file1.txt file3.txt</td><td>Просмотреть содержимое двух файлов (1 и 3) сразу</td></tr>
- <tr><td>27</td><td>nano file1.txt + manual replacement</td><td>Используя один из редакторов замените все строки в файле 1</td></tr>
-</tbody></table>
+---
+## My CV 📄[Martynenko Roman](вставить ссылку)
+---
 
-Задание № 2
+###  📁 🐜Test Artifacts
 
-<table class="tableizer-table">
-<thead><tr class="tableizer-firstrow"><th>№</th><th>Команда</th><th>Описание</th></tr></thead><tbody>
- <tr><td>1</td><td>mkdir test3 </td><td>Создать папку test 3</td></tr>
- <tr><td>2</td><td>cd test3  </td><td>Перейти в папку</td></tr>
- <tr><td>3</td><td>touch test3/file {4,5,6}.txt</td><td>Добавить в папку test 3 три файла 4, 5 и 6</td></tr>
- <tr><td>4</td><td>echo row1, row2, row3, row4 > file4.txt</td><td>В каждом файле должно быть по 4 строки row1, row2, row3, row4</td></tr>
- <tr><td>5</td><td>echo row1, row2, row3, row4 > file5.txt</td><td>&nbsp;</td></tr>
- <tr><td>6</td><td>echo row1, row2, row3, row4 > file6.txt</td><td>&nbsp;</td></tr>
- <tr><td>7</td><td>cat file{4,5,6}.txt</td><td>Проверка содержания файлов</td></tr>
- <tr><td>8</td><td>grep "row2" 5.txt</td><td>Найдите строку row2 в файле 5</td></tr>
- <tr><td>9</td><td>grep -R "row"</td><td>Найдите строку row в папке test3</td></tr>
- <tr><td>10</td><td>grep -c "row" file6.txt</td><td>Посчитать сколько строк с содержимым row в файле 6</td></tr>
- <tr><td>11</td><td>find 5.txt</td><td>Найдите файл 5 внутри папки test3</td></tr>
- <tr><td>12</td><td>find . -name "file5.txt" -delete</td><td>Используя команду find, удалите файл 5</td></tr>
- <tr><td>13</td><td>echo test >> file4.txt</td><td>Используя команду echo, добавьте слово test в файл 4</td></tr>
- <tr><td>14</td><td>sed 's/test/fail/g' test3/file4.txt</td><td>Замените слово test в файле 4 на fail</td></tr>
- <tr><td>15</td><td>echo test >> test3/file4.txt</td><td>Добавьте в файл 4 слово test так, чтобы сохранилось содержимое</td></tr>
- <tr><td>16</td><td>ps aux</td><td>Просмотрите все процессы для юзеров не только в консоли, которые происходят в системе</td></tr>
- <tr><td>17</td><td>kill 666</td><td>Убейте процесс 666 в консоли</td></tr>
- <tr><td>18</td><td>ping artsiomrusau.com</td><td>Узнайте доступность ресурса artsiomrusau.com, используя ping</td></tr>
- <tr><td>19</td><td>ping -n 5 artsiomrusau.com</td><td>Отправьте 5 пакетов на сайт artsiomrusau.com</td></tr>
- <tr><td>20</td><td>curl -X 'GET' \
-  'https://petstore.swagger.io/v2/pet/112' \
-  -H 'accept: application/json'
-                                                        </td><td>Используя GET и команду curl, получите информацию о зарегистрированных питомцах на https://petstore.swagger.io/</td></tr>
-<tr><td>21</td><td>curl -X 'POST' \
-  'https://petstore.swagger.io/v2/pet' \
-  -H 'accept: application/json' \
-  -H 'Content-Type: application/json' \
-  -d '{
-  "id":112,
-  "category": {
-    "id": 0,
-    "name": "string"
-  },
-  "name": "doggie",
-  "photoUrls": [
-    "string"
-  ],
-  "tags": [
-    {
-      "id": 0,
-      "name": "string"
-    }
-  ],
-  "status": "available"
-}'
-                                                        </td><td>Используя POST и команду curl, создайте нового пользователя на https://petstore.swagger.io/</td></tr>
+- [Checklists](https://github.com/TimtestQA/checklist)
+- [Test-Cases](https://github.com/TimtestQA/Test-cases)
+- [Bug-Reports](https://github.com/TimtestQA/Bug-reports)
+- [SQL Queries](https://github.com/TimtestQA/SQL)
+- [Postman Collections](https://www.postman.com/supply-geoscientist-41924051/workspace/petstore/collection/25676439-86b8b22c-1e7a-42d7-911d-7099cd44ce29?action=share&creator=25676439)
+- [Test plans/Reports on the conducted testing ](https://github.com/TimtestQA/Test-plans_Reports-of-testing.git)
+- [Bash commands](https://github.com/TimtestQA/Bash.git)
+- [Git](https://github.com/TimtestQA/git.git)
+- [Charles proxy](https://github.com/TimtestQA/Charles.git)
 
 
-
-</tbody></table>
-
-
+---
+### 📫 Contact me: [![LinkedIn Badge](ссылка на лого)](ссылка страницу) [![Gmail Badge](https://img.shields.io/badge/-Gmail-red?style=flat&logo=Gmail&logoColor=white)](mailto:lenin.s1234567891@gmail.com)
 
 
-<!--
-**RomanRRC/RomanRRC** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 📁 Тестовая документация:
+
+<div>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" title="jira" alt="jira" width="40" height="40"/>&nbsp
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/YouTrack_Icon.svg/1024px-YouTrack_Icon.svg.png?20200803082248" title="youtrack" alt="youtrack" width="40" height="40"/>&nbsp
+  <img src="https://codahosted.io/packs/21236/unversioned/assets/LOGO/ba1091c59bab89cd2fd0f289622731fe16113d7b00905abe64759c313a4b73b76c1b0426076ed76cb74752234c734131df46992d5b8b48fc13e264240e4f7119f736cfeb64df36ded54b5cbf6198b9cadedf18dd0cac5c7dbcd16e6336c29363cd1292ba" title="testrail" alt="tetstrail" width="40" height="40"/>&nbsp
+  <img src="https://docs.testit.software/images/testit_logo_icon.png" title="test-it" alt="test-it" width="40" height="40"/>&nbsp
+  <img src="https://luna1.co/eb0187.png" title="qase" alt="qase" width="40" height="40"/>&nbsp
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" title="figma" alt="figma" width="40" height="40"/>&nbsp
+</div>
+
+---
+
+### 🛠 Тестирование Веб-Приложений:
+
+<div>
+  <img src="https://d33wubrfki0l68.cloudfront.net/38b5c953a4667366685d55db55d057c86db1fc54/a0fdc/static/acae6b24d940347661ca901ea07f47c1/chrome-dev-logo-icon.png" title="devtools" alt="devtools" width="40" height="40"/>&nbsp
+  <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/postman-icon.png" title="postman" alt="postman" width="40" height="40"/>&nbsp
+  <img src="https://static0.smartbear.co/smartbearbrand/media/images/home/soapui-icon.svg" title="soapui" alt="soapui" width="40" height="40"/>&nbsp
+</div>
+
+---
+
+### 📱 Тестирование мобильных приложений:
+
+<div>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/androidstudio/androidstudio-original.svg" title="android-studio" alt="android-studio" width="40" height="40"/>&nbsp
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xcode/xcode-original.svg" title="xcode" alt="xcode" width="40" height="40"/>&nbsp
+  <img src="https://cdn.icon-icons.com/icons2/3053/PNG/512/charles_proxy_macos_bigsur_icon_190302.png" title="charles-proxy" alt="charles-proxy" width="40" height="40"/>&nbsp
+  <img src="https://www.megaleechers.com/storage/Fiddler-Everywhere-Icon.png" title="fiddler" alt="fiddler" width="40" height="40"/>&nbsp
+  <img src="https://pbs.twimg.com/profile_images/1589614420766126080/slAIVDtr_400x400.jpg" title="proxyman" alt="proxyman" width="40" height="40"/>&nbsp
+</div>
+
+
+---
+
+### 💾 Работа с данными:
+
+<div>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" title="mysql" alt="mysql" width="40" height="40"/>&nbsp
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" title="mongodb" alt="mongodb" width="40" height="40"/>&nbsp
+</div>
+
+---
+
+### ✏️ Работа с кодом:
+
+<div>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" title="git" alt="git" width="40" height="40"/>&nbsp
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bash_Logo_Colored.svg/1024px-Bash_Logo_Colored.svg.png?20180723054350" title="bash" alt="bash" width="40" height="40"/>&nbsp
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" title="vscode" alt="vscode" width="40" height="40"/>&nbsp
+  
+</div>
+
+---
+
+### 👨‍🎓 Пройденные курсы:
+
+| Courses                                                           | Date              |
+| ----------------------------------------------------------------| :---------------: |
+| [artsiomrusau.com](https://artsiomrusau.com/)/ Курс "Функциональное тестирование ПО"              | 06/2023 - 09/2023 |
+| [https://stepik.org](https://stepik.org/course/118842/syllabus)/ Курс "Как стать тестировщиком"   | 10/2022 - 11/2022 |
+---
+### 📜Certificates:
+
+🔗[QA engineer Stepik](https://stepik.org/cert/1759819)
+
+---
+
+
+---
+
