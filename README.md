@@ -8,7 +8,7 @@
 
 ###  📁 🐜Test Artifacts
 
-- [Checklists](https://github.com/TimtestQA/checklist)
+- [Checklists](https://github.com/RomanRRC/Checklists)
 - [Test-Cases](https://github.com/TimtestQA/Test-cases)
 - [Bug-Reports](https://github.com/TimtestQA/Bug-reports)
 - [SQL Queries](https://github.com/TimtestQA/SQL)
