@@ -15,7 +15,6 @@
 - [Postman Collections](https://github.com/RomanRRC/Postman-Collections)
 - [Test plans/Reports on the conducted testing ](https://github.com/RomanRRC/Test-plans-Reports-on-the-conducted-testing)
 - [Bash commands](https://github.com/RomanRRC/Bash.git)
-- [Git](https://github.com/TimtestQA/git.git)
 - [Charles proxy](https://github.com/RomanRRC/Charles-proxy)
 
 
