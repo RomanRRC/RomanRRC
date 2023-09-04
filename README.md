@@ -90,8 +90,8 @@
 ---
 ### 📜Certificates:
 
-🔗[QA engineer Stepik](https://stepik.org/cert/1759819)
-🔗[QA engineer artsiomrusau.com](https://v2.coreapp.ai/certificate/pdf/64f5cab90a6aee7e0537e611)
+<br>🔗[QA engineer Stepik](https://stepik.org/cert/1759819)</br>
+<br>🔗[QA engineer artsiomrusau.com](https://v2.coreapp.ai/certificate/pdf/64f5cab90a6aee7e0537e611)</br>
 ---
 
 
